@@ -21,11 +21,8 @@ function doWhileLoop (array) {
  function incrementVariable() {
    i = i + 1;
    do {
-     incrementVariable();
-   } 
-   while (i>0)
-   if (i === 0) {
-     return false }
-   }
-     
+     array = array.pop}
+  while (array.lenght > 0 && incrementVariable())
  }
+ return array;
+} 
