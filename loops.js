@@ -17,9 +17,15 @@ function whileLoop(n) {
   }
 }
 function doWhileLoop (array) {
- do {
-   incrementVariable(array.length);
+ var i = 0
+ function incrementVariable() {
+   i = i + 1;
+   do {
+     incrementVariable();
+   } 
+   while (i>0)
+   if (i === 0) {
+     return false }
+   }
+     
  }
- while (array.length > 0 && incrementVariable());
- return array;
- } 
