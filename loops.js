@@ -22,7 +22,7 @@ function doWhileLoop (array) {
    i = i + 1;
    do {
      array = array.pop}
-  while (array.lenght > 0 && incrementVariable())
+  while (array.lenghth > 0 && incrementVariable())
  }
  return array;
 } 
